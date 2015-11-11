@@ -16,7 +16,7 @@ import static org.junit.Assert.assertThat;
 /**
  * Created by Gregory on 20/03/2015.
  */
-public class MultiCatchTest {
+public final class MultiCatchTest {
 
     @Rule
     public ExpectedException expectedEx = ExpectedException.none();

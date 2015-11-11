@@ -1,9 +1,11 @@
 package org.gisobject.certification.jse7.language.enhancement.exceptions;
 
+import org.junit.Test;
+
 /**
  * Created by Gregory on 24/03/2015.
  */
-public class RethrowTest {
+public final class RethrowTest {
 
     private static class FirstException extends Exception {}
     private static class SecondException extends Exception {}

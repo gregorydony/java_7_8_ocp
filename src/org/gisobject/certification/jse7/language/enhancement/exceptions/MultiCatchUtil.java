@@ -5,7 +5,7 @@ import org.gisobject.certification.jse7.utils.CompilerHelper;
 /**
  * Created by Gregory on 20/03/2015.
  */
-public class MultiCatchUtil {
+public final class MultiCatchUtil {
 
     public static String validateDoubleValue(String s) {
         try {
@@ -24,5 +24,9 @@ public class MultiCatchUtil {
                 "}" +
                 "}";
         CompilerHelper.compile(completeExpression);
+    }
+
+    private MultiCatchUtil() {
+        throw new AssertionError("Non instatiable utility class");
     }
 }

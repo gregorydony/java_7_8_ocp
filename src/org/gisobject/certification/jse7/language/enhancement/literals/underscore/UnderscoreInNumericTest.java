@@ -11,7 +11,7 @@ import static org.junit.Assert.fail;
 /**
  * Created by Gregory on 12/03/2015.
  */
-public class UnderscoreInNumericTest {
+public final class UnderscoreInNumericTest {
 
     @Test
     public void testAllowedUnderscoreInInt() {

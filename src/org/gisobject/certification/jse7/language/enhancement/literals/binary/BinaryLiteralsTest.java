@@ -12,7 +12,7 @@ import static org.junit.Assert.assertTrue;
 /**
  * Created by Gregory on 12/03/2015.
  */
-public class BinaryLiteralsTest {
+public final class BinaryLiteralsTest {
 
     @Test
     public void testBinaryLiterals(){
