@@ -3,7 +3,7 @@ package org.gisobject.certification.jse7.language.enhancement.autoclose;
 /**
  * Created by Gregory on 18/03/2015.
  */
-public class AutoCloseableResource implements AutoCloseable {
+public final class AutoCloseableResource implements AutoCloseable {
 
     public static class InnerResource implements AutoCloseable {
         @Override

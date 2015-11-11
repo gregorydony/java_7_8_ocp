@@ -15,7 +15,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 /**
  * Created by Gregory on 14/03/2015.
  */
-public class BufferedReaderTest {
+public final class BufferedReaderTest {
 
     @Rule
     public ExpectedException expectedEx = ExpectedException.none();

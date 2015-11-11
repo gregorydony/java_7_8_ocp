@@ -7,7 +7,7 @@ import java.io.IOException;
 /**
  * Created by Gregory on 17/03/2015.
  */
-public class BufferedReaderUtil {
+public final class BufferedReaderUtil {
 
     public static void forceIOException() throws IOException {
         try (BufferedReader br2 = new BufferedReader(new FileReader("bar.txt"))) {

@@ -9,7 +9,7 @@ import static org.hamcrest.core.IsEqual.equalTo;
 /**
  * Created by Gregory on 19/03/2015.
  */
-public class AutoCloseableTest {
+public final class AutoCloseableTest {
 
     private void tryAutoCloseableResource(int id) throws Exception {
         try (AutoCloseableResource autoCloseableResource = new AutoCloseableResource(id)) {
