@@ -1,11 +1,16 @@
 package org.gisobject.certification.jse7.language.enhancement.switchcase;
 
-import org.hamcrest.MatcherAssert;
-
 /**
+ * <a href="http://docs.oracle.com/javase/7/docs/technotes/guides/language/strings-switch.html"/>
  * Created by Gregory on 11/03/2015.
  */
-public class StringInSwitch {
+public final class StringInSwitch {
+
+    /**
+     * <a href="http://docs.oracle.com/javase/7/docs/technotes/guides/language/strings-switch.html">http://docs.oracle.com/javase/7/docs/technotes/guides/language/strings-switch.html</a>
+     * @param dayOfWeekArg
+     * @return typeOfDay
+     */
     public static String getTypeOfDayWithSwitchStatement(String dayOfWeekArg) {
         String typeOfDay;
         switch (dayOfWeekArg) {
